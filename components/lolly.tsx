@@ -2,16 +2,18 @@ interface Props {
   flavourTop: string | undefined;
   flavourMiddle: string | undefined;
   flavourBottom: string | undefined;
+  className?: string
 }
 
 export default function Lolly({
   flavourTop,
   flavourMiddle,
   flavourBottom,
+  className
 }: Props) {
   return (
     <svg
-      className="lollipop"
+      className={className}
       width="163px"
       height="431px"
       viewBox="0 0 163 431"

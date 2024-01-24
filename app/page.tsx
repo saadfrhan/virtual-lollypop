@@ -17,16 +17,19 @@ export default function Home() {
           flavourTop="#C26671"
           flavourMiddle="#D94A3A"
           flavourBottom="#D53020"
+          className="max-md:hidden"
         />
         <Lolly
           flavourTop="#C22671"
           flavourMiddle="#D92A3A"
           flavourBottom="#D51020"
+          className="max-md:hidden"
         />
         <Lolly
           flavourTop="#C26671"
           flavourMiddle="#D92A3A"
           flavourBottom="#D53020"
+          className="max-md:hidden"
         />
       </div>
       <div className="pt-[60px]">
