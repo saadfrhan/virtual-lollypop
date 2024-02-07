@@ -18,9 +18,17 @@ export default async function Page({
   };
 }) {
   async function getLolly(slug: string) {
-    const result = await client.query(
-      q.Get(q.Match(q.Index("lolly_by_slug"), slug))
-    );
+    const result = await client.query<{
+      data: {
+        flavorTop: string;
+        flavorMiddle: string;
+        flavorBottom: string;
+        from: string;
+        message: string;
+        slug: string;
+        to: string;
+      };
+    }>(q.Get(q.Match(q.Index("lolly_by_slug"), slug)));
     return result.data;
   }
 
