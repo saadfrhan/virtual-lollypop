@@ -9,27 +9,30 @@ export default function Home() {
       <Header />
       <div className="flex w-full gap-10 justify-center items-center">
         <Lolly
-          flavourTop="#C35671"
-          flavourMiddle="#E93A3A"
-          flavourBottom="#D52020"
+          flavourTop="#FF6B81"
+          flavourMiddle="#FF3E6B"
+          flavourBottom="#FF1F58"
         />
+
         <Lolly
-          flavourTop="#C26671"
-          flavourMiddle="#D94A3A"
-          flavourBottom="#D53020"
+          flavourTop="#FFD53E"
+          flavourMiddle="#FFAA00"
+          flavourBottom="#FF8000"
           className="max-md:hidden"
         />
+
         <Lolly
-          flavourTop="#C22671"
-          flavourMiddle="#D92A3A"
-          flavourBottom="#D51020"
+          flavourTop="#6688FF"
+          flavourMiddle="#3366FF"
+          flavourBottom="#0033CC"
           className="max-md:hidden"
         />
+
         <Lolly
-          flavourTop="#C26671"
-          flavourMiddle="#D92A3A"
-          flavourBottom="#D53020"
+          flavourTop="#50D2C2"
+          flavourMiddle="#00BFA6"
           className="max-md:hidden"
+          flavourBottom="#009688"
         />
       </div>
       <div className="pt-[60px]">
