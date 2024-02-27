@@ -7,6 +7,7 @@ import AutoForm, { AutoFormSubmit } from "./auto-form";
 import createLolly from "@/actions/create-lolly";
 import { redirect, useRouter } from "next/navigation";
 import { v4 as uuid } from "uuid";
+import FlavoursDrawer from "./flavours-drawer";
 
 interface Flavours {
 	flavourTop: string;
@@ -57,7 +58,10 @@ const CreateLollyForm = ({ premade }: { premade?: Flavours }) => {
 						},
 					}}
 				>
-					<AutoFormSubmit>Freeze</AutoFormSubmit>
+					<div className="flex gap-2">
+						<AutoFormSubmit>Freeze</AutoFormSubmit>
+						<FlavoursDrawer />
+					</div>
 				</AutoForm>
 				<div className="flex gap-12">
 					<Lolly

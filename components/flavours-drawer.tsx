@@ -17,11 +17,8 @@ export default function FlavoursDrawer() {
 	return (
 		<Drawer>
 			<DrawerTrigger>
-				<Button
-					size="icon"
-					className="rounded-full fixed bottom-5 left-5"
-				>
-					<Popsicle className="h-6 w-6" />
+				<Button type="button">
+					Premade flavors
 				</Button>
 			</DrawerTrigger>
 			<DrawerContent className="h-full border-0 bg-transparent">

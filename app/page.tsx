@@ -2,7 +2,6 @@ import Link from "next/link";
 import Header from "@/components/header";
 import Lolly from "@/components/lolly";
 import { buttonVariants } from "@/components/ui/button";
-import FlavoursDrawer from "@/components/flavours-drawer";
 
 export default function Home() {
 	return (
@@ -43,7 +42,6 @@ export default function Home() {
 					</Link>
 				</div>
 			</div>
-			<FlavoursDrawer />
 		</div>
 	);
 }
