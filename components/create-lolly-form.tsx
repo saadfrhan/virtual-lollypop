@@ -44,7 +44,7 @@ const CreateLollyForm = ({ premade }: { premade?: Flavours }) => {
 	};
 
 	return (
-		<div className="p-8 rounded-lg shadow-md flex justify-center items-center">
+		<div className="p-8 flex justify-center items-center">
 			<div className="flex gap-12 max-md:flex-col justify-center items-center w-full">
 				<AutoForm
 					formSchema={formSchema}
@@ -53,7 +53,6 @@ const CreateLollyForm = ({ premade }: { premade?: Flavours }) => {
 					fieldConfig={{
 						message: {
 							fieldType: "textarea",
-
 						},
 					}}
 				>

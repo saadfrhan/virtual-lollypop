@@ -16,7 +16,7 @@ import Link from "next/link";
 export default function FlavoursDrawer() {
 	return (
 		<Drawer>
-			<DrawerTrigger>
+			<DrawerTrigger asChild>
 				<Button
 					size="icon"
 					className="rounded-full fixed bottom-5 left-5"
